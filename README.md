@@ -1,13 +1,14 @@
 # loopback-model-provider
 
-loopback-model-provider is a component for loopback, wich serves the model.json specifications in one Object.
+loopback-model-provider is a component for loopback, wich serves the model.json specifications for all models together in one Object.
 
 ```
 {
   <modelname> :  { model.name,
                    model.plural, // (if not existing in config, will add an 's' to name
                    ...model
-                 }
+                 },
+  ...
 }
 ```
 ## Installation
