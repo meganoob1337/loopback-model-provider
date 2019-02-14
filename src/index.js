@@ -3,7 +3,7 @@ const fs = require('fs');
 module.exports = function(loopbackApplication, options) {
   const excludes = options.excludes || [];
   const path = options.path || '/model-provider';
-  const modelPath = __dirname + '/../../common/models/';
+  const modelPath = __dirname + '/../../../common/models/';
   loopbackApplication.use(options.path, function(req, res, next) {
     let files = fs.readdirSync(modelPath);
     files = files.filter((file) => {
