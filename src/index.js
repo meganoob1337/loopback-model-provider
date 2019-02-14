@@ -19,4 +19,5 @@ module.exports = function(loopbackApplication, options) {
     }, {});
     res.send(JSON.stringify(files));
   });
+  loopbackApplication.set('loopback-model-provider', options);
 };
