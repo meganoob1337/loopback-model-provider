@@ -1,0 +1,24 @@
+{
+  "name": "loopback-model-provider",
+  "version": "1.0.0",
+  "description": "a plugin for loopback to serve the model.json files ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/meganoob1337/loopback-model-provider.git"
+  },
+  "keywords": [
+    "loopback",
+    "model",
+    "plugin"
+  ],
+  "author": "Andrei Wilkens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meganoob1337/loopback-model-provider/issues"
+  },
+  "homepage": "https://github.com/meganoob1337/loopback-model-provider#readme"
+}
